@@ -40,7 +40,7 @@ Here is the command list(See the whitelistmode setting as a white list or blackl
 
 #### reload
 Because using `/reload` conflicts with the default command in spigot, please use `/nocommand:reload` instead.
-To use this command, you need to have permission "nocommand.reload".
+To use this command, you need to have permission `nocommand.reload`.
 
 ### permissions
 + `nocommand.bypass` : Bypass the command restriction of the plugin.
