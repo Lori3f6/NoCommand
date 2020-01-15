@@ -1,0 +1,8 @@
+name: NoCommand
+main: moe.langua.lab.nocommand.Init
+api-version: "1.13"
+version: "1"
+commands:
+  reload:
+    description: reload the plugin
+    usage: /reload
