@@ -7,11 +7,12 @@ All functions can be configured in `plugins/NoCommand/config.yml`. This file wil
 ### config
 Here is an example for config.yml.
 ```
-whitelistmode: false 
-feedback: "&7NoCommand &f> &e{player}&f, you can't use command &c{command}&f."  
-commands: 
+whitelistmode: false
+feedback: "&7NoCommand &f> &e{player}&f, you can't use the command &c{command}&f now."
+commands:
   - version
   - plugins
+  - theothercommand
 ```
 The discription of each item will be list below.
 
@@ -28,9 +29,10 @@ Feedback is the notice the player will see when they are preventing to use the c
 If you don't want the player to see this notice at all, just set it to `feedback: ""`.
 
 ```
-commands: 
+commands:
   - version
   - plugins
+  - theothercommand
 ```
 Here is the command list(See the whitelistmode setting as a white list or blacklist). The commands here needs removing the beginning `/`. All commands here must be lowercase.
 
