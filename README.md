@@ -32,7 +32,7 @@ commands:
   - version
   - plugins
 ```
-Here is the command list(See the whitelistmode setting as a white list or blacklist). The commands here needs removing the beginning `/`.
+Here is the command list(See the whitelistmode setting as a white list or blacklist). The commands here needs removing the beginning `/`. All commands here must be lowercase.
 
 ### commands
 

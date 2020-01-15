@@ -1,5 +1,6 @@
 whitelistmode: false
-feedback: "&7NoCommand &f> &e{player}&f, you can't use command &c{command}&f."
+feedback: "&7NoCommand &f> &e{player}&f, you can't use the command &c{command}&f now."
 commands:
   - version
   - plugins
+  - theothercommand
