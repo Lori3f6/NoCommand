@@ -23,7 +23,7 @@ whitelistmode: false
 Whitelist mode. If the value is true, the whitelist mode will be enabled. The player without permission `nocommand.bypass` can only use the commands list in `commands:` list below. If the value is false, the blacklist mode will be enabled. The player has no permission `nocommand.bypass` will NOT be allowed to use the commands list in `commands:` below.
 
 ```
-feedback: "&7NoCommand &f> &e{player}&f, you can't use command &c{command}&f."
+feedback: "&7NoCommand &f> &e{player}&f, you can't use the command &c{command}&f now."
 ```
 Feedback is the notice the player will see when they are preventing to use the command. Two placeholder is privaded here. `{player}` will be replaced by player's name, and `{command}` will be replaced by the command which player want to use. Placeholders are not required, you can set the notice without placeholders as you like.(placeholderapi is not supported now)
 If you don't want the player to see this notice at all, just set it to `feedback: ""`.
